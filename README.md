@@ -1,4 +1,4 @@
-# PoissonDenoising
+# Denoising with Poisson Mixture Models
 
 This repository provides a PyTorch package for Denoising with Poisson Mixture Models (PMM).
 
@@ -10,13 +10,21 @@ The code has only been tested on Linux systems.
 
 ## Setup
 
-In the extracted `pmm` folder, do:
+Clone this repository:
 
 ```bash
-git clone https://github.com/tvlearn/tvutil
+git clone git@github.com:salwig/pmm.git
+cd pmm
 ```
 
-to get the [tvutil](https://github.com/tvlearn/tvutil).
+After cloning the repository, do:
+
+```bash
+git submodule init
+git submodule update
+```
+
+to get the [tvutil](https://github.com/tvlearn/tvutil) as submodule.
 
 We recommend [Anaconda](https://www.anaconda.com/) to manage the installation, and to create a new environment for hosting installed packages:
 
