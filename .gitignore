@@ -1,0 +1,15 @@
+.pytest_cache
+build
+lib
+files
+trash
+tests
+*.pkl
+*.png
+*.out
+*.err
+*.tar
+*.csv
+.clang-format
+*.ipynb
+.ipynb_checkpoints

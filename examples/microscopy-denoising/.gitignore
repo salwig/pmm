@@ -1,0 +1,12 @@
+.pytest_cache
+out
+data
+*.pkl
+*.png
+*.out
+*.err
+*.tar
+*.csv
+.clang-format
+*.ipynb
+.ipynb_checkpoints

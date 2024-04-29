@@ -1,0 +1,3 @@
+[submodule "tvutil"]
+	path = tvutil
+	url = git@github.com:tvlearn/tvutil.git
